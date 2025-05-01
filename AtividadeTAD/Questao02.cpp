@@ -17,7 +17,7 @@
         scanf("%d", &n);
 
         if (n > MAX_ELEMENTOS) {
-            printf("Número excede o máximo permitido!\n");
+            printf("NÃºmero excede o mÃ¡ximo permitido!\n");
             return;
         }
 
@@ -94,11 +94,11 @@
         imprimir_conjunto(B);
 
         C = uniao(A, B);
-        printf("União de A e B: ");
+        printf("UniÃ£o de A e B: ");
         imprimir_conjunto(C);
 
         C = interseccao(A, B);
-        printf("Interseção de A e B: ");
+        printf("InterseÃ§Ã£o de A e B: ");
         imprimir_conjunto(C);
 
         return 0;
